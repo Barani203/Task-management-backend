@@ -1,60 +1,8 @@
 # Task Management Application
-Task Management is a full-stack application that helps you organize your responsibilities more easily, providing a user-friendly interface. The application was built using the MERN stack (MongoDB, Express.js, React.js, Node.js), as well as TailwindCSS and Redux Toolkit. 
+Task Management is a full-stack application that helps you organize your responsibilities more easily, providing a user-friendly interface. The application was built using the MERN stack (MongoDB, Express.js, React.js, Node.js)
 
-# How To Run
-- Git clone repository
-- Create your own .env file that should contain:
-  - PORT = <YOUR_PORT>
-  - MONGO_URI = <YOUR_MONGO_URI>
-  - JWT_SECRET = <YOUR_JWT_SECRET>
-  
-- Run these commands in terminal/shell:
-  -  <b>npm install</b> in backend folder
-  -  <b>npm install</b> in frontend folder
-  -  <b>npm run dev</b> at the root of the project 
 
-# Project Architecture
 
-### Root
-```   
-└───backend
-└───frontend
-└───node_modules
-│   package-lock.json 
-│   package.json 
-│   README.md
-```
-
-### Backend Folder
-```
-│   server.js    
-└───config
-    │   db.js
-└───controllers
-    │   taskController.js
-    │   userController.js
-└───middleware
-    │   authMiddleware.js
-    │   errorMiddleware.js
-└───models
-    │   taskModel.js
-    │   userModel.js
-└───routes
-    │   taskRoutes.js
-    │   userRoutes.js
-```
-
-### Frontend Folder
-```   
-└───public
-└───src
-│   .gitignore 
-│   package-lock.json 
-│   package.json
-│   postcss.config.js
-│   tailwind.config.js
-└───node_modules
-```
 
 # Application Review
 
